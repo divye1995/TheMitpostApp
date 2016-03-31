@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="60dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    tools:context=".Application.MainActivity$PlaceholderFragment"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:fitsSystemWindows="true"
+    >
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewSwipeRefresh">
+    <ListView
+        android:id="@+id/listViewMainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/dividerColor"
+        >
+    </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
